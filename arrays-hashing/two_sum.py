@@ -7,4 +7,4 @@ def two_sum(nums,target):
             return[prev_map[diff],i]
         prev_map[n] = i
     return
-print(two_sum([1,2,3,5],4))
+print(two_sum([1,2,3,5],10))
